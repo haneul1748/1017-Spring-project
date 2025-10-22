@@ -8,13 +8,16 @@
 </head>
 <body>
 
-	<jsp:include page="include/header.jsp"></jsp:include>
+	<jsp:include page="include/header.jsp" />
 	
-	<div style="width: 1200px; height: 600px">
+	<div style="width: 1200px; height: 600px;">
+	
 	
 	</div>
-			
-	<jsp:include page="include/footer.jsp"></jsp:include>
 	
+	<jsp:include page="include/footer.jsp" />
+	
+	
+
 </body>
 </html>
