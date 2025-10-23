@@ -95,8 +95,10 @@ public class BoardController {
 		// 조회수 증가에 성공했다면 SELECT로 조회
 		// 만약에 없는 게시글 번호라면 예외발생
 		BoardDTO board = boardService.findByBoardNo(boardNo);
+		
 		model.addAttribute("board", board);
 		return "board/detail";
 	}
+	
 	
 }
