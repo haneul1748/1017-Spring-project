@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kh.spring.board.model.dto.AjaxResponse;
+import com.kh.spring.ajax.model.dto.AjaxResponse;
 import com.kh.spring.board.model.dto.BoardDTO;
 import com.kh.spring.board.model.dto.ReplyDTO;
 // @RestController == @Controller + @ResponseBody
