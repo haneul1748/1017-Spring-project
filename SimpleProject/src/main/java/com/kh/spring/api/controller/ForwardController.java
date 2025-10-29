@@ -26,7 +26,7 @@ public class ForwardController {
 	@GetMapping("busan/forward/{num}")
 	public String toDetail(Model model, @PathVariable(value="num") int num) {
 		model.addAttribute("num", num);
-		System.out.print(num);
+		// System.out.print(num);
 		return "api/detail";
 	}
 }
