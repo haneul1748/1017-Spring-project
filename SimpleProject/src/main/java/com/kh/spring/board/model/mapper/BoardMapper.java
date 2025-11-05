@@ -45,4 +45,6 @@ public interface BoardMapper {
 		     	   createDate DESC
 			""")
 	List<comment> selectAll(Long seq);
+	
+	
 }
